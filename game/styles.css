@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#game {
+	position: absolute;
+	overflow: hidden;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+#score {
+	font-family: 'Press Start 2P', cursive;
+	position: absolute;
+}
+
+
+/* BOTTOM TEXT */
+
+#nointernet, #video {
+	position: absolute;
+}
+
+#video {
+	font-size: large;
+}
+
+/* GAME OVER */
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#gameover {
+	font-family: 'Press Start 2P', cursive;
+	font-size: xx-large;
+}
+
+#restart {
+	background-image: url("sprite.png");
+	background-position: -2px -2px;
+	width: 72px;
+	height: 64px;
+	border: none;
+	outline: none;
+	margin: auto;
+	display: block;
+}
+
+
+/* SPRITESHEET */
+
+.entity {
+	background-image: url("sprite.png");
+	position: absolute;
+}
+
+
+/* DEBUG */
+
+.hitbox {
+	position: absolute;
+	border: 1px solid red;
+}
+
+.spritebox {
+	position: absolute;
+	border: 1px solid green;
+}
